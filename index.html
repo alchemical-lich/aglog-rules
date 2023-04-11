@@ -1587,13 +1587,6 @@ margin-left: 0 !important;
             Ends</a></li>
             <li><a href="#conditions" id="toc-conditions">Conditions</a></li>
             </ul></li>
-            <li><a href="#magic-and-spells" id="toc-magic-and-spells"><strong>MAGIC AND
-            SPELLS</strong></a>
-            <ul>
-            <li><a href="#spellcasting" id="toc-spellcasting">Spellcasting</a></li>
-            <li><a href="#mishaps" id="toc-mishaps">Mishaps</a></li>
-            <li><a href="#dooms" id="toc-dooms">Dooms</a></li>
-            </ul></li>
             <li><a href="#equipment" id="toc-equipment"><strong>EQUIPMENT</strong></a>
             <ul>
             <li><a href="#arms-armor" id="toc-arms-armor">ARMS &amp;
@@ -1601,14 +1594,14 @@ margin-left: 0 !important;
             <li><a href="#adventuring-gear" id="toc-adventuring-gear">ADVENTURING GEAR</a></li>
             <li><a href="#retainers" id="toc-retainers">RETAINERS</a></li>
             </ul></li>
-            <li><a href="#random-tables" id="toc-random-tables"><strong>RANDOM TABLES</strong></a>
+            <li><a href="#magic-and-spells" id="toc-magic-and-spells"><strong>MAGIC AND
+            SPELLS</strong></a>
             <ul>
-            <li><a href="#random-items" id="toc-random-items">Random
-            Items</a></li>
-            <li><a href="#random-mutations" id="toc-random-mutations">Random Mutations</a></li>
+            <li><a href="#spellcasting" id="toc-spellcasting">Spellcasting</a></li>
+            <li><a href="#mishaps" id="toc-mishaps">Mishaps</a></li>
+            <li><a href="#dooms" id="toc-dooms">Dooms</a></li>
             </ul></li>
             <li><a href="#magic-items" id="toc-magic-items"><strong>MAGIC ITEMS</strong></a></li>
-            <li><a href="#bestiary" id="toc-bestiary"><strong>BESTIARY</strong></a></li>
             <li><a href="#the-grand-grimoires" id="toc-the-grand-grimoires"><strong>THE GRAND
             GRIMOIRES</strong></a>
             <ul>
@@ -1621,6 +1614,13 @@ margin-left: 0 !important;
             <ul>
             <li><a href="#entities-1" id="toc-entities-1"><strong>99
             Entities</strong></a></li>
+            </ul></li>
+            <li><a href="#bestiary" id="toc-bestiary"><strong>BESTIARY</strong></a></li>
+            <li><a href="#random-tables" id="toc-random-tables"><strong>RANDOM TABLES</strong></a>
+            <ul>
+            <li><a href="#random-items" id="toc-random-items">Random
+            Items</a></li>
+            <li><a href="#random-mutations" id="toc-random-mutations">Random Mutations</a></li>
             </ul></li>
             </ul>
           </div>
@@ -1649,10 +1649,10 @@ margin-left: 0 !important;
 Rats on Sticks</a>.</p>
 <p>Changes:</p>
 <ul>
-<li>Tweaked character creation (Ability bonus distribution, professions,
+<li>Tweaked character creation (ability bonus distribution, professions,
 ancestries)</li>
 <li>Added Defense as an optional rule</li>
-<li>Changed and added combat maneuvers and stances</li>
+<li>Changed and added combat maneuvers</li>
 <li>Changed progression</li>
 <li>Removed Vancian casting</li>
 <li>Tweaked initiative</li>
@@ -2391,34 +2391,42 @@ or make up your own entry (Trollkin, Slugling, Automaton, …).</p>
 <tr class="odd">
 <td>1</td>
 <td><strong>Dwarf</strong></td>
-<td>Stoic and hardy. Gain expertise in a craft. Lowlight vision.</td>
-<td>-2 to use magic items unless they are Dwarfish arcana.</td>
+<td>Pick one: Lowlight vision, +1 inventory quick draw slot in your
+beard, Stonecunning.</td>
+<td>Save <strong>WIS</strong> to bond magic items unless they are
+weapons or Dwarven made</td>
 </tr>
 <tr class="even">
 <td>2</td>
 <td><strong>Elf</strong></td>
-<td>Lowlight vision. Speak with plants -though they rarely have anything
-interesting to say.</td>
-<td>Worked metal of any sort makes you nauseous.</td>
+<td>Pick one: Lowlight vision. Glade &amp; Glen (you move through the
+landscape without leaving a trace, and the natural world conspires with
+you in this. When traveling through a wilderness alone or with other
+elves you cannot be tracked and you gain +2 when rolling to avoid
+surprise).</td>
+<td>Wearing worked metal armor of any sort makes you nauseous
+(<strong>Poisoned</strong> condition).</td>
 </tr>
 <tr class="odd">
 <td>3</td>
 <td><strong>Gnome</strong></td>
-<td>Become invisible if you close your eyes, hold your breath, &amp;
-don’t move.</td>
+<td>Pick one: Become invisible if you close your eyes, hold your breath,
+&amp; don’t move; Truculence (<strong>Advantage</strong> on saves vs
+Charm effects)</td>
 <td>Dangerously curious.</td>
 </tr>
 <tr class="even">
 <td>4</td>
 <td><strong>Halfling</strong></td>
-<td>Halflings are small creatures. You gain a +2 DEX bonus to AC when
-attacked by larger creatures.</td>
-<td>Tall folk often don’t take you seriously.</td>
+<td>Pick one: Halflings are small creatures. You gain a +1 to AV when
+attacked by larger creatures; Brave (<strong>Advantage</strong> against
+fear effects)</td>
+<td>Big eater–you need 1.5 times the rations others require.</td>
 </tr>
 <tr class="odd">
 <td>5</td>
 <td><strong>Human</strong></td>
-<td>+1 Item Slot, gain a random piece of gear.</td>
+<td>+1 Item Quick Draw Slot and gain a random piece of gear.</td>
 <td>-2 saves vs. being mutated or transformed</td>
 </tr>
 </tbody>
@@ -2521,7 +2529,7 @@ armor.</td>
 </tr>
 <tr class="even">
 <td>12</td>
-<td><strong>Obsidimen</strong></td>
+<td><strong>Rockfolk</strong></td>
 <td>Can eat almost anything as rations. AC+1 (stacks with armor).</td>
 <td>Slow to act. You always act last in
 <strong>Initiative</strong>.</td>
@@ -2531,7 +2539,7 @@ armor.</td>
 <td><strong>Orc</strong></td>
 <td>Relentless. 1/per day you can remove 1 level of
 <strong>Fatigue</strong>. Lowlight vision.</td>
-<td>Prone to making rash decisions.</td>
+<td>*Save vs WIS** to resist a challenge.</td>
 </tr>
 <tr class="even">
 <td>14</td>
@@ -2993,9 +3001,15 @@ nothing, (3) straw, (4) your dead, (5) dirt, (6) rocks.</p>
 <div id="advancement" class="section level2">
 <h2>Advancement</h2>
 <p><strong>EXPERIENCE POINTS</strong></p>
-<p>PCs receive 1 XP per coin spent on carousing or training. XP can also
-be awarded for besting monsters or overcoming other significant
-challenges.</p>
+<p>There are several ways for PCs to earn XP:</p>
+<ul>
+<li><p>PCs receive 1 XP per gold coin of treasure recovered.</p></li>
+<li><p>Problem solving (100-500 XP).</p></li>
+<li><p>Achieving adventuring goals and exploration discoveries (25-1,000
+XP)</p></li>
+<li><p>10 XP per 100 gold coins per coin spent on carousing.</p></li>
+<li><p>Besting monsters.</p></li>
+</ul>
 <p>When a PC gains a level, consult the <strong>Base Adventurer</strong>
 table and adjust HP, Skills, etc.</p>
 <p>Each level, except for Level 1, increase a single <strong>Ability
@@ -3038,79 +3052,79 @@ level 8 and 10, you receive a bonus template.</p>
 <tr class="even">
 <td>1</td>
 <td>0</td>
-<td>CON+10</td>
+<td>CON+8</td>
 <td>1</td>
 <td>-</td>
 <td>+3</td>
 </tr>
 <tr class="odd">
 <td>2</td>
-<td>250</td>
-<td>CON+14</td>
+<td>2,000</td>
+<td>CON+10</td>
 <td>2</td>
 <td>+1</td>
 <td>+3</td>
 </tr>
 <tr class="even">
 <td>3</td>
-<td>750</td>
-<td>CON+16</td>
+<td>4,000</td>
+<td>CON+12</td>
 <td>3</td>
 <td>+1</td>
 <td>+3</td>
 </tr>
 <tr class="odd">
 <td>4</td>
-<td>1,500</td>
-<td>CON+18</td>
+<td>8,000</td>
+<td>CON+14</td>
 <td>4</td>
 <td>+1</td>
 <td>+3</td>
 </tr>
 <tr class="even">
 <td>5</td>
-<td>2,500</td>
-<td>CON+20</td>
+<td>16,000</td>
+<td>CON+16</td>
 <td>-</td>
 <td>+1</td>
 <td>+4</td>
 </tr>
 <tr class="odd">
 <td>6</td>
-<td>3,750</td>
-<td>CON+22</td>
+<td>32,000</td>
+<td>CON+18</td>
 <td>-</td>
 <td>+1</td>
 <td>+4</td>
 </tr>
 <tr class="even">
 <td>7</td>
-<td>5,250</td>
-<td>CON+24</td>
+<td>64,000</td>
+<td>CON+20</td>
 <td>-</td>
 <td>+1</td>
 <td>+4</td>
 </tr>
 <tr class="odd">
 <td>8</td>
-<td>7,000</td>
-<td>CON+26</td>
+<td>128,000</td>
+<td>CON+22</td>
 <td>Bonus Template</td>
 <td>+1</td>
 <td>+5</td>
 </tr>
 <tr class="even">
 <td>9</td>
-<td>9,000</td>
-<td>CON+28</td>
+<td>256,000</td>
+<td>CON+24</td>
 <td>-</td>
 <td>+1</td>
 <td>+5</td>
 </tr>
 <tr class="odd">
 <td>10</td>
-<td>11,250</td>
-<td>CON+30</td>
+<td>384,000</td>
+<td>CON+26</td>
 <td>Bonus Template</td>
 <td>+1</td>
 <td>+5</td>
@@ -3296,7 +3310,10 @@ combat).</td>
 <div id="the-encounter-sequence" class="section level3">
 <h3>The Encounter Sequence</h3>
 <p>When the party moves into a new area or spends time on an exploration
-activity, roll the encounter die and interpret the results.</p>
+activity, advance time by 1 dungeon turn.</p>
+<p>Roll the encounter die every other dungeon turn and interpret the
+results. More dangerous areas might trigger more frequent encounter die
+rolls.</p>
 <p>If the PCs are moving cautiously, or have a Hunter in the party, they
 get the omen before the encounter and spot signs of traps. The fun part
 isn’t noticing the trap, it’s how the PCs deal with it. Use common sense
@@ -3338,10 +3355,10 @@ must be weighed.</p>
 that are not expecting the encounter. A monster waiting quietly in the
 dark for an incautious party would not roll for surprise. The PCs would.
 Light sources can be seen a mile away.</p>
-<p>Make a <strong>WIS save</strong> for each PC to determine surprise.
-Any surprised groups cannot act in the first round of the encounter.
-However, a group that is not surprised gets one free round of
-actions.</p>
+<p>Make a <strong>WIS save</strong> with <strong>DC 6</strong> for each
+PC to determine surprise. Any surprised groups cannot act in the first
+round of the encounter. However, a group that is not surprised gets one
+free round of actions.</p>
 <p><strong>REACTIONS</strong> When the PCs encounter an NPC whose
 reaction to the party is not obvious, roll 2d6 and consult the following
 table. Add the <strong>CHA bonus</strong> of the PC interacting with the
@@ -3390,23 +3407,32 @@ them.</p>
 </div>
 <div id="combat" class="section level2">
 <h2>Combat</h2>
-<p><strong>THE COMBAT ROUND</strong> A Round of combat lasts 6 seconds.
-A PC can move and perform a single action during a round. This action
-may be casting a spell, making a second move, making an attack,
-retrieving an item from inventory, attempting a combat maneuver, or any
-other action deemed reasonable by the Referee.</p>
-<p><strong>PUSH YOURSELF</strong> Any PC can decide to <strong>push
-themselves</strong> in a combat round. This gives the PC an extra
-<strong>Action</strong> that can be used for a physical activity, e.g.,
-another attack, maneuver, or movement (i.e., no spellcasting) at the
-cost of 1 <strong>Fatigue</strong>. This can only be done once per
-round.</p>
-<p><strong>INITIATIVE</strong> At the start of every round, every PC
-<strong>saves vs DEX</strong>. On a success, the PC acts before the
-enemies. On a failure, they act after the enemies. The Order of Combat
-still applies. Spellcasters casting from a book or scroll have to
-declare so before initiative is rolled. They automatically fail their
-initiative test.</p>
+<div id="the-combat-round" class="section level3">
+<h3><strong>THE COMBAT ROUND</strong></h3>
+<p>A Round of combat lasts 10 seconds. A PC can move and perform a
+single action during a round. This action may be casting a spell, making
+a second move, making an attack, retrieving an item from inventory,
+attempting a combat maneuver, or any other action deemed reasonable by
+the Referee.</p>
+</div>
+<div id="combat-sequence" class="section level3">
+<h3><strong>COMBAT SEQUENCE</strong></h3>
+<ol style="list-style-type: decimal">
+<li>Declare scroll or grimoire casting. Declare Fighting Withrdrawl or
+Retreat.</li>
+<li>Roll Initiative.</li>
+<li>Winning PCs take their turn.</li>
+<li>Enemies take their turn.</li>
+<li>Losing PCs take their turn.</li>
+</ol>
+</div>
+<div id="initiative" class="section level3">
+<h3><strong>INITIATIVE</strong></h3>
+<p>At the start of every round, every PC <strong>saves vs DEX</strong>.
+On a success, the PC acts before the enemies. On a failure, they act
+after the enemies. The Order of Combat still applies. Spellcasters
+casting from a book or scroll have to declare so before initiative is
+rolled. They automatically fail their initiative test.</p>
 <table>
 <thead>
 <tr class="header">
@@ -3447,6 +3473,9 @@ Class.</p>
 <p>*Movement may be split or broken up. A creature may make a partial
 move, take an action, and then finish their move. They cannot move more
 than their normal movement rate.</p>
+<p>Once a create as entered Melee with an enemy, they cannot move away
+without declaring a <strong>Fighting Withdrawal</strong> or
+<strong>Retreat</strong>.</p>
 <p><strong>ATTACKING</strong> Roll a <strong>d20</strong> and add the
 appropriate ability bonus. <strong>STR Bonus</strong> for melee,
 <strong>DEX Bonus</strong> for ranged attacks. To hit an enemy roll
@@ -3474,6 +3503,12 @@ target always requires a to-hit roll.</p>
 can attack a second time on your turn (or attempt a combat maneuver). If
 this ability is gained from multiple templates, it does not give you any
 additional attacks.</p>
+<p><strong>PUSH YOURSELF</strong> Any PC can decide to <strong>push
+themselves</strong> in a combat round. This gives the PC an extra
+<strong>Action</strong> that can be used for a physical activity, e.g.,
+another attack, maneuver, or movement (i.e., no spellcasting) at the
+cost of 1 <strong>Fatigue</strong>. This can only be done once per
+round.</p>
 <p><strong>DEFENSE (OPTIONAL)</strong></p>
 <p>Instead of enemies rolling their own Attack rolls vs. a PC’s AC, the
 Referee can decide to allow a <strong>Defense save</strong>. A
@@ -3485,9 +3520,9 @@ enemy attack against the PC’s AC.</p>
 <p>A creature may hold their action until a specified circumstance
 triggers it. Held actions not resolved during the round they are
 declared are lost.</p>
-<p><strong>FIGHTING WITHDRAWAL</strong> The creature moves backwards at
-up to half their movement rate. They may attack or fight defensively
-(see <strong>Combat Maneuvers</strong>).</p>
+<p><strong>FIGHTING WITHDRAWAL</strong> The creature moves backwards out
+of melee at up to half their movement rate. They may attack or use
+maneuvers (see <strong>Combat Maneuvers</strong>).</p>
 <p><strong>RETREAT</strong> The creature turns and flees from melee,
 moving up to their full movement rate. This round: the creature may not
 attack; their opponent gains +2 to all attacks against them and ignores
@@ -3592,7 +3627,7 @@ modifiers from abilities or magic items).</td>
 <tr class="even">
 <td><strong>Shield Bash</strong></td>
 <td>Costs 1 <strong>Fatigue</strong>. Attack and cause <strong>STR
-mod</strong> damage (add flat modifiers from call abilities or magic
+mod</strong> damage (add flat modifiers from all abilities or magic
 items). Target has to <strong>Save vs STR</strong> or become
 <strong>Stunned</strong> for one round. Stunned creatures have
 <strong>disadvantage</strong> on their attacks and saves and attacks on
@@ -3657,21 +3692,16 @@ together. For ease of play Referees can assume an average monster has 4
 or 5 Hit Points per HD.</p>
 <p>A PC can recover lost HP through resting, eating rations, and
 consuming magic potions. When a PC drops to 0HP or lower in combat they
-are <strong>Out of Action</strong> (OoA). They are unable to do anything
-more than crawl away and moan a lot. A PC who is <strong>OoA</strong>
-cannot be tended to during combat and must wait until they are dragged
-clear of the scrum and the danger has passed. If things go badly and one
-or more PCs are left at the mercy of their enemies there is a good
-chance that they will be killed and eaten, though possibly patched up
-enough to be held for ransom. If they are not dead, roll on the
-<strong>Scars Table</strong>.</p>
+go unconscious and are at risk of death. On each subsequent turn, the PC
+has to <strong>Save vs CON</strong> to stay alive. A failure means
+death. A critical success means the PC regains 1 HP and becomes
+conscious. Any damage that reduces the PC to <strong>negative (5+CON)
+HP</strong> means immediate and automatic <strong>death</strong>.</p>
+<p>If a PC regains consciousness after being reduced to 0 or less HP,
+roll on the <strong>Scars Table</strong>.</p>
 <p>When a character gains a <strong>Scar</strong>, they gain 2 levels of
 <strong>fatigue</strong> until their next <strong>Good Night’s
 Rest</strong>.</p>
-<p>A PC reduced to <strong>negative (5+CON) HP</strong> is
-<strong>dead</strong>. Cut in half, smashed to jelly, or their head is
-lopped off. There aren’t enough sandwiches or healing potions in the
-kingdom to fix them.</p>
 <p><strong>HEALING</strong></p>
 <p>Assuming that you have not died…</p>
 <p><strong>1. Lunch</strong>. Heals a character for 25% of their max HP
@@ -3806,6 +3836,7 @@ permanently by +1.</td>
 <p><em>Scars Table adapted from Chris McDowall’s Electric Bastionland:
 <a href="https://www.drivethrurpg.com/product/308100/Electric-Bastionland" class="uri">https://www.drivethrurpg.com/product/308100/Electric-Bastionland</a></em></p>
 </div>
+</div>
 <div id="exploration-and-travel" class="section level2">
 <h2>Exploration and Travel</h2>
 <p><strong>Hex Crawling</strong></p>
@@ -3842,13 +3873,12 @@ resolving the action, roll on the <strong>Event Table</strong>.</p></li>
 a hex. There is a 4-in-6 chance of discovering a hidden location in the
 hex description. Difficult terrain reduces this to 3-in-6. An
 experienced woodsman increases the chance by 1-in-6. Roll on the
-<strong>Event Table</strong> with a +2 bonus</p></li>
+<strong>Event Table</strong>.</p></li>
 <li><p><strong>Interact</strong>: Staying in the current location
 (e.g. exploring a dungeon, town, etc).</p></li>
 <li><p><strong>Camp</strong>: Resting and/or sleeping. PCs should
 determine watches and need the right supplies for a <strong>Good Night’s
-Rest</strong>. Roll on the <strong>Event Table</strong> with a -2
-penalty.</p></li>
+Rest</strong>. Roll on the <strong>Event Table</strong>.</p></li>
 <li><p><strong>Hunt &amp; Forage</strong>: The party collectively
 replenish their supplies from the wilderness. 1d4 rations are gained per
 character (apply negative modifier for harsh environments).
@@ -3868,24 +3898,24 @@ skip Camp.</p>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1-2</td>
-<td>Uneventful</td>
+<td>1</td>
+<td>Encounter</td>
 </tr>
 <tr class="even">
-<td>3</td>
+<td>2</td>
 <td>Weather change</td>
 </tr>
 <tr class="odd">
-<td>4</td>
+<td>3</td>
 <td>Location</td>
 </tr>
 <tr class="even">
-<td>5</td>
+<td>4</td>
 <td>Hazard</td>
 </tr>
 <tr class="odd">
-<td>6</td>
-<td>Encounter</td>
+<td>5-6</td>
+<td>Uneventful</td>
 </tr>
 </tbody>
 </table>
@@ -4171,236 +4201,6 @@ damage.</td>
 </table>
 </div>
 </div>
-<div id="magic-and-spells" class="section level1">
-<h1><strong>MAGIC AND SPELLS</strong></h1>
-<p>Magic is a powerful and mysterious force in the world. Harnessing
-eldritch powers is a dangerous undertaking. Across cultures, many
-traditions and approaches exist to bend magic for practical purposes. In
-game terms, a <strong>Magic User</strong> (or M-U) is a PC that has
-gained at least 1 <strong>Magic Die</strong> or <strong>MD</strong>
-through a class template and gained some understanding of magic–ranging
-from the intuitive, religious to the analytical. Think of
-<strong>MD</strong> as magical fuel.</p>
-<p>Having access to <strong>MD</strong> alone though is not enough to
-generate any practical effects. A PC needs to have a way of translating
-<strong>MD</strong> into effects. This comes in the form of class
-abilities (e.g., <strong>Fey Walker</strong> ability to infuse arrows
-with magical effects), access to a magical item that already contains a
-spell, or the <strong>Spellcasting</strong> ability granted by some
-class templates.</p>
-<div id="spellcasting" class="section level2">
-<h2>Spellcasting</h2>
-<p>If a PC gains the <strong>Spellcasting</strong> feature through a
-class template, they gain the ability to translate <strong>MD</strong>
-into real world effects in the form of spells. Spells can be cast from
-memory (<strong>Signature Spells</strong>), directly from a spellbook or
-scroll, or from magic items containing spells. The
-<strong>Spellcasting</strong> feature also grants the ability to
-<strong>Identify Magic</strong> (see below).</p>
-<p>A PC can only ever gain the <strong>Spellcasting</strong> ability
-from a single class. That means a PC cannot multi-class into several
-classes that grant <strong>Spellcasting</strong> (but they can
-multiclass into classes that grant MD and other magical powers).</p>
-<p>To cast a spell, select the number of <strong>Magic Dice</strong>
-(<strong>MD</strong>) you wish to invest, roll them, and add the numbers
-together. <strong>MD</strong> are d6s. As a Magic User, you get 1
-<strong>MD</strong> per Magic User template. Most spells depend on the
-number of [dice] invested and the [sum] they show. If you roll doubles
-you suffer a <strong>Mishap</strong>. If you roll triples you suffer a
-<strong>Doom</strong>.</p>
-<p>Dice that roll 1-3 return to your casting pool and can be used again
-that day. Dice that roll 4-6 are removed from your casting pool for the
-day.</p>
-<p>Your <strong>MD</strong> return if you get a <strong>Good Night’s
-Sleep</strong>. If you didn’t sleep well, you can <strong>Save vs
-WIS</strong> for each <strong>MD</strong> to have them return to your
-pool anyway.</p>
-<p>Wearing armor can impinge on the flow of magic energies and hinders
-the arm movements necessary to cast spells. Spellcasters can wear Light
-armor without any impediment (but that means they don’t get the benefit
-of robes). Wearing Medium armor reduces their available Magic Dice by 2.
-Wearing Heavy Armor reduces available Magic Dice by 4.</p>
-<div id="signature-spells" class="section level3">
-<h3>Signature Spells</h3>
-<p>A spellcaster can dedicate an substantial amount of practice and
-study to commit a spell to memory. Such spells are the spellcaster’s
-<strong>Signature Spells</strong>.</p>
-<p>The total number of <strong>Signature Spells</strong> is determined
-by their <strong>INT mod</strong>. Each key attribute bonus point
-equates to one <strong>Signature Spell</strong>. Spellcasters gain
-additional <strong>Signature Spells</strong> through spellcasting class
-templates. The number of <strong>Signature Spells</strong> gained
-through class templates is equal to 1 per Template <strong>A–C</strong>.
-The <strong>Master of Magic</strong> ability grants 5 <strong>Signature
-Spells</strong>.</p>
-<p>If the spellcaster gains the ability to assign a <strong>Signature
-Spell</strong>, either through an ability bonus increase or an
-additional class template, they can wait to do so until they find a
-suitable spell while adventuring.</p>
-<p>To make a spell a <strong>Signature Spell</strong>, the spellcaster
-needs either the instruction of a teacher, access to a spellbook
-describing the spell, a scroll, or a wand/stave containing the spell. It
-takes one week of study to make a spell a <strong>Signature
-Spell</strong> and a <strong>save vs INT</strong>.</p>
-<p>Once a spell has become a <strong>Signature Spell</strong>, it cannot
-be easily unlearned. The M-U has to dedicate one month of research and
-study to replace an existing <strong>Signature Spell</strong> with
-another, in addition to the basic requirements for learning a new
-spell.</p>
-<p>Casting a <strong>Signature Spell</strong> requires <strong>no
-save</strong> and the M-U simply has to assign the desired MD to
-determine its effect.</p>
-<p>A spellcaster can also cast non-<strong>Signature spells</strong>
-from spellbooks, scrolls, wands, and staves but this is inherently more
-difficult and risky.</p>
-</div>
-<div id="spellbooks" class="section level3">
-<h3>Spellbooks</h3>
-<p>A spellbook, or grimoire, contains information on up to 10 spells and
-occupies 1 Item Slot.</p>
-<p>In order to use a spellbook, the PC needs to have gained the
-<strong>Spellcasting</strong> ability through a class template (or a
-special ability granting their use).</p>
-<p>A solid volume, with thick vellum pages and a sturdy cover. Each page
-is littered with runes, arcane symbols, diagrams, calculations, and
-hand-written notes in the margins, describing the theory and practice of
-casting a particular spell. Spellbooks start in a waterproof, acid- and
-fire-resistant bag. Outside the bag, they are not waterproof. They are
-flammable. And they are also valuable–even an empty book is worth 1000
-gp, +500-1,000 gp per spell it may contain.</p>
-<p>A spellcaster can try to make a spell in a spellbook one of their
-<strong>Signature Spells</strong>, if they have not yet exhausted their
-maximum number of signature spells and they pass a <strong>Save vs
-INT</strong>. Attempting to commit a spell to memory takes one week of
-study.</p>
-<p>Upon gaining the <strong>Book Casting</strong> feature, a spellcaster
-can try to cast a spell directly from the spellbook. This is slow and
-dangerous because the caster has not yet mastered the spell. The
-spellcaster has to declare the intent to cast a spell from their
-spellbook <strong>before initiative is rolled for the round</strong>.
-They automatically lose initiative and go after the enemies in a fight.
-The spellcaster has to decide how many <strong>MD</strong> to invest,
-hold the spellbook in their hand, and they cannot move during their
-turn. If they take any damage during the round <strong>Save vs
-Constitution</strong>. If they fail the save, they fumble the spell and
-there is no effect, but the spellcaster still rolls the
-<strong>MD</strong> for the purposes of determining
-<strong>Mishaps</strong> or <strong>Doom</strong> and the loss of
-<strong>MD</strong>.</p>
-<p>Some rare spellbooks may also have additional <strong>MD</strong>
-stored inside of them.</p>
-</div>
-<div id="scrolls" class="section level3">
-<h3>Scrolls</h3>
-<p>A scroll is effectively a page from a spellbook with some extra magic
-built in. It contains the description of a single spell and the power to
-cast it once. Three scrolls fit in one Item Slot.</p>
-<p>In order to use a scroll, the PC needs to have the
-<strong>Spellcasting</strong> ability, gained through a class template
-(or a special ability granting their use).</p>
-<p>A spellcaster can try to make a spell on a scroll one of their
-<strong>Signature Spells</strong>, if they have not yet exhausted their
-number of <strong>Signature Spells</strong> and they pass a <strong>Save
-vs INT</strong>. Attempting to commit a spell to memory requires one
-week of study.</p>
-<p>A spellcaster can try to cast a spell from the scroll. This is slow
-and dangerous because the caster has not yet mastered the spell. The
-spellcaster has to declare the intent to cast a spell from as scroll
-<strong>before initiative is rolled for the round</strong>. They
-automatically lose initiative and go after the enemies in a fight. The
-spellcaster has to decide how many <strong>MD</strong> to invest, hold
-the scroll in their hand, and they cannot move during their turn. If
-they take any damage during the round <strong>Save vs CON</strong>. If
-they fail the save, they fumble the spell and there is no effect, but
-the spellcaster still rolls the <strong>MD</strong> for the purposes of
-determining <strong>Mishaps</strong> or <strong>Doom</strong> and the
-loss of <strong>MD</strong>. If they succeed, roll <strong>MD</strong>
-as normal to determine the spell’s effect. Doing so unleashes the stored
-magic of the scroll. The scroll burns and you add <strong>+1 MD</strong>
-to your roll for the purposes of determining the effect. Roll different
-colored dice to keep them sorted. This <strong>MD</strong> is
-automatically consumed and does not return to your pool.</p>
-<p>The <strong>Flame Proof</strong> class ability allows the Wizard to
-cast a spell from a scroll without burning it (retaining the +1 MD). A
-wizard can invoke this ability once per day.</p>
-</div>
-<div id="wands-staves" class="section level3">
-<h3>Wands &amp; Staves</h3>
-<p>In order to use a Wand or Stave, the PC needs to have at least one
-<strong>M-U</strong> class template (or a special ability granting their
-use).</p>
-<p>Wands and Staves contain extra <strong>MD</strong> that are tied to
-specific spells. Wands provide the ability to cast a single, specific
-spell (e.g., a Wand of Magic Missile) and can store up to <strong>4
-MD</strong>. Casting a spell from a wand requires <strong>no
-save</strong>. The PC has to use at least <strong>1 MD</strong> from the
-wand itself, but can add additional <strong>MD</strong> from their own
-pool. Roll different colored dice to keep them sorted. Be wary of
-rolling too many <strong>MD</strong> at once! Quadruples, quintuples,
-sextuples, etc. count as stacking Mishaps in addition to any Doom a PC
-might roll.</p>
-<p><strong>MD</strong> from the wand are automatically lost, regardless
-of what you roll.</p>
-<p>You may also invest <strong>1 MD</strong> into the wand per day, and
-you take 1d6 damage from the strain. The <strong>MD</strong> invested in
-the wand is held there until it is used. Each day, you can add
-<strong>+1 MD</strong> to the wand, as above. <strong>MD</strong> moved
-to a wand reduces your total for the day, but you regain your full
-number of <strong>MD</strong> with a <strong>Good Night’s
-Sleep</strong>.</p>
-<p>Big wands (staves) can hold up to <strong>6 MD</strong> and cast up
-to <strong>3 spells</strong>. The art of making wands died with the
-Ancients and they are essentially priceless. Expect to be ambushed by
-collectors, thieves, and other wizards if you are unsubtle about
-possessing one of these artifacts.</p>
-</div>
-<div id="magic-robes" class="section level3">
-<h3>Magic Robes</h3>
-<p>The Big Hats and fancy robes are not just fashion statements. Magic
-Robes provide <strong>+1 MD</strong> to a spellcaster’s casting pool.
-Some ancient robes may even offer more power! Once used, the
-<strong>MD</strong> returns to the robes the next day at sunrise.</p>
-<p>Anyone with at least one <strong>M-U</strong> class template (or a
-special ability granting their use) can wear magic robes in lieu of
-armor. That means magic robes can be used to fuel spells but also other
-magical abilities.</p>
-<p>Obtaining the materials necessary for creating magic garments almost
-always involves a quest to a mist shrouded forest or a dismal swamp
-where you will undoubtedly do battle with a giant sentient spider or
-make promises you cannot keep to an ancient hag.</p>
-</div>
-<div id="identifying-magic" class="section level3">
-<h3>Identifying Magic</h3>
-<p>Spellcasters can sense magic in the air. By tasting, smelling,
-rubbing, or closely inspecting an item, you can tell if it is magical.
-You may need to test the item in game to determine what type of magic it
-holds. An <strong>INT save</strong> may reveal additional information
-after such.</p>
-</div>
-</div>
-<div id="mishaps" class="section level2">
-<h2>Mishaps</h2>
-<p>If you roll doubles while casting a spell, roll on the Mishap table
-for your M-U class. Unless otherwise specified, the spell still works.
-Magic is dangerous; this was just a hiccup or misfire.</p>
-</div>
-<div id="dooms" class="section level2">
-<h2>Dooms</h2>
-<p>If you roll triples while casting a spell, one of your wizard Dooms
-takes effect. Each class has 3 dooms. The third doom is invariably fatal
-or worse. All wizards walk a dangerous path. They burn their souls like
-candles, and in doing so, court damnation.</p>
-<p>It is possible to seek solutions to a wizard’s doom. These are always
-unique quests.</p>
-<p><strong>MODIFYING MAGICAL SAVES</strong></p>
-<p>Any <strong>Save</strong> for resisting a spell’s effect is modified
-by the Level-HD difference between the caster and the target if this
-difference is larger than 1. E.g., a Level-5 Wizard casts a spell on a
-1-HD goblin. The goblin’s <strong>save</strong> receives an additional
-penalty of -4. The the wizard had cast the spell on the 4-HD golbin
-captain, no additional penalty is incurred.</p>
-</div>
-</div>
 <div id="equipment" class="section level1">
 <h1><strong>EQUIPMENT</strong></h1>
 <p><strong>ITEM SLOTS</strong></p>
@@ -4409,7 +4209,7 @@ number of slots that an item requires is noted in the equipment section.
 The first 100 Coins are not counted against item slots, 200 Coins take
 up 1 item slot. Bulky treasure also takes up 1 item slot.</p>
 <p>The first 4 slots are quick-draw slots, and can be accessed at any
-time. You can oput weapons, shields, wands, or other hand-held gear into
+time. You can put weapons, shields, wands, or other hand-held gear into
 your quick-draw slots. Worn armor counts to your non-quick-draw
 inventory slots. It takes 1 round to retrieve an item from any other
 inventory slot. Digging in your pack during combat will give enemies
@@ -4479,9 +4279,9 @@ cannot carry more than twice your inventory.</p>
 <td>1</td>
 <td>5</td>
 <td>Melee</td>
-<td>Bleed</td>
+<td>Rend</td>
 <td>Light</td>
-<td>-</td>
+<td>Parry</td>
 </tr>
 <tr class="even">
 <td>Rapier</td>
@@ -4490,7 +4290,7 @@ cannot carry more than twice your inventory.</p>
 <td>1</td>
 <td>5</td>
 <td>Melee</td>
-<td>-</td>
+<td>Bleed</td>
 <td>Light, Agile</td>
 <td>Feint</td>
 </tr>
@@ -4503,7 +4303,7 @@ cannot carry more than twice your inventory.</p>
 <td>Melee</td>
 <td>Knock-out</td>
 <td>-</td>
-<td>Knock-Down</td>
+<td>Shove, Knock-Down</td>
 </tr>
 <tr class="even">
 <td>Staff</td>
@@ -4545,7 +4345,7 @@ cannot carry more than twice your inventory.</p>
 <td>1</td>
 <td>10</td>
 <td>Melee</td>
-<td>Rend</td>
+<td>Bleed or Rend</td>
 <td>Versatile</td>
 <td>Parry</td>
 </tr>
@@ -4578,7 +4378,7 @@ cannot carry more than twice your inventory.</p>
 <td>1</td>
 <td>10</td>
 <td>Melee</td>
-<td></td>
+<td>-</td>
 <td>Chained</td>
 <td>Disarm</td>
 </tr>
@@ -4590,7 +4390,7 @@ cannot carry more than twice your inventory.</p>
 <td>20</td>
 <td>Melee</td>
 <td>-</td>
-<td>Reach</td>
+<td>Heavy, Reach</td>
 <td>Brace</td>
 </tr>
 <tr class="even">
@@ -4602,7 +4402,7 @@ cannot carry more than twice your inventory.</p>
 <td>Melee</td>
 <td>Smash</td>
 <td>Heavy</td>
-<td>Shove, Knock-Down</td>
+<td>Knock-Down</td>
 </tr>
 <tr class="odd">
 <td>Zweihänder</td>
@@ -4622,7 +4422,7 @@ cannot carry more than twice your inventory.</p>
 <td>2</td>
 <td>20</td>
 <td>Melee</td>
-<td>Cleave</td>
+<td>Brutal</td>
 <td>Heavy</td>
 <td>Reckless Attack</td>
 </tr>
@@ -4635,7 +4435,7 @@ cannot carry more than twice your inventory.</p>
 <td>Range: 30ft.</td>
 <td>Knock-out</td>
 <td>Ranged, Concealable</td>
-<td>Volley</td>
+<td>Knock-Down</td>
 </tr>
 <tr class="even">
 <td>Bow</td>
@@ -4689,7 +4489,7 @@ cannot carry more than twice your inventory.</p>
 <td>n/a</td>
 <td>Melee</td>
 <td>Knock-out</td>
-<td>Grapple, Shove, Trip, Knock-Down</td>
+<td>Grapple, Shove, Trip</td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -4741,8 +4541,8 @@ training and instruction.</p>
 <p><strong>Bleed</strong> Causes 1 point of persistent bleed damage on
 subsequent turns for 1d6 rounds (or until healed or attended by a
 medic).</p>
-<p><strong>Brutal</strong> Roll the damage again and add to the
-total.</p>
+<p><strong>Brutal</strong> Roll another damage die and add to the total
+(not doubled from the critical hit).</p>
 <p><strong>Cleave</strong> Make an extra attack against a nearby
 enemy.</p>
 <p><strong>Knock-out</strong> Target has to <strong>Save vs STR</strong>
@@ -4883,7 +4683,8 @@ padded undergarment that can be slept in and counts as light armor
 heavy armor.</p>
 <p><strong>Spellcasters</strong> can wear Light armor without any
 impediment. Wearing Medium armor reduces their available Magic Dice by
-2. Wearing Heavy Armor reduces available Magic Dice by 4.</p>
+2. Wearing Heavy Armor reduces available Magic Dice by 4. Holding a
+shield reduced available Magic Dice by 1.</p>
 </div>
 <div id="adventuring-gear" class="section level2">
 <h2>ADVENTURING GEAR</h2>
@@ -5243,592 +5044,243 @@ danger. Check the <a href="https://www.drivethrurpg.com/product/399614/Gig-Econo
 Economy</a> supplement for more detail.</p>
 </div>
 </div>
-<div id="random-tables" class="section level1">
-<h1><strong>RANDOM TABLES</strong></h1>
-<div id="random-items" class="section level2">
-<h2>Random Items</h2>
-<table>
-<thead>
-<tr class="header">
-<th><strong>1D20</strong></th>
-<th>DUNGEONEERING</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>Pliers, loop of wire</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>Jar of glue</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>Drill</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>Smoke bombs (3)</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>Sturdy shears</td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>Spyglass</td>
-</tr>
-<tr class="odd">
-<td>7</td>
-<td>Chisel</td>
-</tr>
-<tr class="even">
-<td>8</td>
-<td>Rope, 50ft</td>
-</tr>
-<tr class="odd">
-<td>9</td>
-<td>Crowbar</td>
-</tr>
-<tr class="even">
-<td>10</td>
-<td>Caltrops</td>
-</tr>
-<tr class="odd">
-<td>11</td>
-<td>Copper wire, 15ft.</td>
-</tr>
-<tr class="even">
-<td>12</td>
-<td>Bladder of oil</td>
-</tr>
-<tr class="odd">
-<td>13</td>
-<td>Grapple hook</td>
-</tr>
-<tr class="even">
-<td>14</td>
-<td>Iron spikes, 5</td>
-</tr>
-<tr class="odd">
-<td>15</td>
-<td>Bucket of pitch</td>
-</tr>
-<tr class="even">
-<td>16</td>
-<td>10ft pole</td>
-</tr>
-<tr class="odd">
-<td>17</td>
-<td>Hammer</td>
-</tr>
-<tr class="even">
-<td>18</td>
-<td>Lantern, 1 flask oil</td>
-</tr>
-<tr class="odd">
-<td>19</td>
-<td>Lock-picks</td>
-</tr>
-<tr class="even">
-<td>20</td>
-<td>Vial of acid</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr class="header">
-<th><strong>1D20</strong></th>
-<th>FOOD &amp; DRINK</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>Mortar &amp; pestle</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>Tobacco &amp; pipe (5 uses)</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>Set of ladles, spoons, and sieves</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>Bag of salt</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>Fancy chef’s pan</td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>Fishing rod</td>
-</tr>
-<tr class="odd">
-<td>7</td>
-<td>Ewer of wine</td>
-</tr>
-<tr class="even">
-<td>8</td>
-<td>Strange fungus</td>
-</tr>
-<tr class="odd">
-<td>9</td>
-<td>Bag of potent spices (5 uses)</td>
-</tr>
-<tr class="even">
-<td>10</td>
-<td>Large wheel of expensive cheese</td>
-</tr>
-<tr class="odd">
-<td>11</td>
-<td>Book of monster recipes</td>
-</tr>
-<tr class="even">
-<td>12</td>
-<td>Sack of flour</td>
-</tr>
-<tr class="odd">
-<td>13</td>
-<td>9 rations</td>
-</tr>
-<tr class="even">
-<td>14</td>
-<td>Bear trap</td>
-</tr>
-<tr class="odd">
-<td>15</td>
-<td>Questionable mushrooms</td>
-</tr>
-<tr class="even">
-<td>16</td>
-<td>Bottle of poison</td>
-</tr>
-<tr class="odd">
-<td>17</td>
-<td>Magical healing herbs, 3 doses</td>
-</tr>
-<tr class="even">
-<td>18</td>
-<td>Pot of grease</td>
-</tr>
-<tr class="odd">
-<td>19</td>
-<td>3 flasks</td>
-</tr>
-<tr class="even">
-<td>20</td>
-<td>Set of fancy chef’s knives</td>
-</tr>
-</tbody>
-</table>
-<table>
-<colgroup>
-<col width="32%" />
-<col width="67%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>1D20</strong></th>
-<th>MAGIC &amp; CURSED ITEMS</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>Half a map</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>Jar of eyeballs</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>Knucklebones of a saint . . .probably</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>Jar of leeches</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>Antique wand</td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>Small box containing the dying breathe of a dead man</td>
-</tr>
-<tr class="odd">
-<td>7</td>
-<td>Writing case (paper, quill &amp; ink)</td>
-</tr>
-<tr class="even">
-<td>8</td>
-<td>Ironbound tome (probably cursed)</td>
-</tr>
-<tr class="odd">
-<td>9</td>
-<td>A small bird with opinions</td>
-</tr>
-<tr class="even">
-<td>10</td>
-<td>Ring (holds 1 MD)</td>
-</tr>
-<tr class="odd">
-<td>11</td>
-<td>1d3 Enigma (spell/potion)</td>
-</tr>
-<tr class="even">
-<td>12</td>
-<td>A fairy’s heart in a small vial</td>
-</tr>
-<tr class="odd">
-<td>13</td>
-<td>A Thief’s book of secrets written in invisible ink</td>
-</tr>
-<tr class="even">
-<td>14</td>
-<td>Bone reliquary that only opens when asked politely</td>
-</tr>
-<tr class="odd">
-<td>15</td>
-<td>Collection of iridescent cicada wings</td>
-</tr>
-<tr class="even">
-<td>16</td>
-<td>Cold iron key to a tower that no one has ever heard of</td>
-</tr>
-<tr class="odd">
-<td>17</td>
-<td>Magic robes</td>
-</tr>
-<tr class="even">
-<td>18</td>
-<td>Black chalk that summons ghosts - will answer questions
-truthfully</td>
-</tr>
-<tr class="odd">
-<td>19</td>
-<td>Spice bag of holding</td>
-</tr>
-<tr class="even">
-<td>20</td>
-<td>1d3 magic scrolls</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr class="header">
-<th><strong>1D10</strong></th>
-<th>UNLABELED WANDS</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>Sleep</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>Acid Arrow</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>Magic Missile</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>Burning Hands</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>Feather Fall</td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>Knock</td>
-</tr>
-<tr class="odd">
-<td>7</td>
-<td>Grease</td>
-</tr>
-<tr class="even">
-<td>8</td>
-<td>Wizard Lock</td>
-</tr>
-<tr class="odd">
-<td>9</td>
-<td>Fireball</td>
-</tr>
-<tr class="even">
-<td>10</td>
-<td>Transmute <X> to <Y></td>
-</tr>
-</tbody>
-</table>
-<table>
-<colgroup>
-<col width="29%" />
-<col width="70%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>1D12</strong></th>
-<th>RANDOM MAGIC SHOP ITEMS</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>A jar containing a wizard’s last thoughts.</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>A wolf skull and a wooden tongue. If the tongue is put inside the
-skull, It will start cursing in an unknown language. Anyone who hears it
-curse must make a CON save or gain Lycanthropy.</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>An empty lamp capable of holding a djinn.</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>A crystal ball which holds within it visions of the life you could
-have had if only you’d made better choices.</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>A book detailing the process of creating an owlbear. It’s quite
-nasty.</td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>A book of alleged demon sightings, like a UFOlogist’s conspiracy
-book.</td>
-</tr>
-<tr class="odd">
-<td>7</td>
-<td>A yellowed candle clutched by a mummified hand. Light the candle to
-reveal invisible beings and ghosts.</td>
-</tr>
-<tr class="even">
-<td>8</td>
-<td>The animated skeleton of a canary, locked in a cage. It will shriek
-horribly if it catches even a faint whiff of poison.</td>
-</tr>
-<tr class="odd">
-<td>9</td>
-<td>Black Fen and The Boys. (D10 mice for hire.) Black Fen runs a
-collection of protection rackets and other schemes and takes tribute
-from most of the street gangs operating in the area - you can hire her,
-but she won’t be coming with you herself. Instead, she’ll send one of
-her “boys”, invariably a tough, scarred mouse with good instincts for
-when to get the hell out of dodge and an eye for trouble - and loot. The
-real benefit to having her on your payroll though is that the mouse
-gangs won’t ever harass a party that has one of her boys tagging
-along.</td>
-</tr>
-<tr class="even">
-<td>10</td>
-<td>A Charcoal Skull Mask. Peer through it to see the world on
-fire.</td>
-</tr>
-<tr class="odd">
-<td>11</td>
-<td>The mummified corpse of a seer packed into a large clay amphora.
-Once per day, feed it three drops of human blood and receive a yes or no
-answer to a single question.</td>
-</tr>
-<tr class="even">
-<td>12</td>
-<td>Razor-sharp bone shards from a famous monks ribcage. Said to cure
-possession if swallowed, but the results are often bad for your internal
-organs.</td>
-</tr>
-</tbody>
-</table>
+<div id="magic-and-spells" class="section level1">
+<h1><strong>MAGIC AND SPELLS</strong></h1>
+<p>Magic is a powerful and mysterious force in the world. Harnessing
+eldritch powers is a dangerous undertaking. Across cultures, many
+traditions and approaches exist to bend magic for practical purposes. In
+game terms, a <strong>Magic User</strong> (or M-U) is a PC that has
+gained at least 1 <strong>Magic Die</strong> or <strong>MD</strong>
+through a class template and gained some understanding of magic–ranging
+from the intuitive, religious to the analytical. Think of
+<strong>MD</strong> as magical fuel.</p>
+<p>Having access to <strong>MD</strong> alone though is not enough to
+generate any practical effects. A PC needs to have a way of translating
+<strong>MD</strong> into effects. This comes in the form of class
+abilities (e.g., <strong>Fey Walker</strong> ability to infuse arrows
+with magical effects), access to a magical item that already contains a
+spell, or the <strong>Spellcasting</strong> ability granted by some
+class templates.</p>
+<div id="spellcasting" class="section level2">
+<h2>Spellcasting</h2>
+<p>If a PC gains the <strong>Spellcasting</strong> feature through a
+class template, they gain the ability to translate <strong>MD</strong>
+into real world effects in the form of spells. Spells can be cast from
+memory (<strong>Signature Spells</strong>), directly from a spellbook or
+scroll, or from magic items containing spells. The
+<strong>Spellcasting</strong> feature also grants the ability to
+<strong>Identify Magic</strong> (see below).</p>
+<p>OPTIONAL RESTRICTION: A PC can only ever gain the
+<strong>Spellcasting</strong> ability from a single class. That means a
+PC cannot multi-class into several classes that grant
+<strong>Spellcasting</strong> (but they can multiclass into classes that
+grant MD and other magical powers).</p>
+<p>To cast a spell, select the number of <strong>Magic Dice</strong>
+(<strong>MD</strong>) you wish to invest, roll them, and add the numbers
+together. <strong>MD</strong> are d6s. As a Magic User, you get 1
+<strong>MD</strong> per Magic User template. Most spells depend on the
+number of [dice] invested and the [sum] they show. If you roll doubles
+you suffer a <strong>Mishap</strong>. If you roll triples you suffer a
+<strong>Doom</strong>.</p>
+<p>Dice that roll 1-3 return to your casting pool and can be used again
+that day. Dice that roll 4-6 are removed from your casting pool for the
+day.</p>
+<p>Your <strong>MD</strong> return if you get a <strong>Good Night’s
+Sleep</strong>. If you didn’t sleep well, you can <strong>Save vs
+WIS</strong> for each <strong>MD</strong> to have them return to your
+pool anyway.</p>
+<p>Wearing armor can impinge on the flow of magic energies and hinders
+the arm movements necessary to cast spells. Spellcasters can wear Light
+armor without any impediment (but that means they don’t get the benefit
+of robes). Wearing Medium armor reduces their available Magic Dice by 2.
+Wearing Heavy Armor reduces available Magic Dice by 4. Holding a shield
+reduced available Magic Dice by 1.</p>
+<div id="signature-spells" class="section level3">
+<h3>Signature Spells</h3>
+<p>A spellcaster can dedicate an substantial amount of practice and
+study to commit a spell to memory. Such spells are the spellcaster’s
+<strong>Signature Spells</strong>.</p>
+<p>The total number of <strong>Signature Spells</strong> is determined
+by their <strong>INT mod</strong>. Each key attribute bonus point
+equates to one <strong>Signature Spell</strong>. Spellcasters gain
+additional <strong>Signature Spells</strong> through spellcasting class
+templates. The number of <strong>Signature Spells</strong> gained
+through class templates is equal to 1 per Template <strong>A–C</strong>.
+The <strong>Master of Magic</strong> ability grants 5 <strong>Signature
+Spells</strong>.</p>
+<p>If the spellcaster gains the ability to assign a <strong>Signature
+Spell</strong>, either through an ability bonus increase or an
+additional class template, they can wait to do so until they find a
+suitable spell while adventuring.</p>
+<p>To make a spell a <strong>Signature Spell</strong>, the spellcaster
+needs either the instruction of a teacher, access to a spellbook
+describing the spell, a scroll, or a wand/stave containing the spell. It
+takes one week of study to make a spell a <strong>Signature
+Spell</strong> and a <strong>save vs INT</strong>.</p>
+<p>Once a spell has become a <strong>Signature Spell</strong>, it cannot
+be easily unlearned. The M-U has to dedicate one month of research and
+study to replace an existing <strong>Signature Spell</strong> with
+another, in addition to the basic requirements for learning a new
+spell.</p>
+<p>Casting a <strong>Signature Spell</strong> requires <strong>no
+save</strong> and the M-U simply has to assign the desired MD to
+determine its effect.</p>
+<p>A spellcaster can also cast non-<strong>Signature spells</strong>
+from spellbooks, scrolls, wands, and staves but this is inherently more
+difficult and risky.</p>
 </div>
-<div id="random-mutations" class="section level2">
-<h2>Random Mutations</h2>
-<table>
-<colgroup>
-<col width="29%" />
-<col width="50%" />
-<col width="20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>1D12</strong></th>
-<th>RANDOM MUTATION</th>
-<th>EFFECT</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>Blindsight</td>
-<td>Your eyes turn milky-white as mycelial hyphae sprout from your eye
-sockets and form a dense crust over the top of your head. You no longer
-“see”, per se, but you can sense vibrations out to 60’, regardless of
-environmental conditions (light, dark, etc.)</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>Extra Limbs</td>
-<td>You sprout d4 extra limbs. 1-4: arm, 5-6: leg. For each extra pair
-of arms you gain an additional attack per round and gain the Spiderclimb
-ability (as the spell). For each additional leg, increase your movement
-speed by 5’ per round.</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>So Many Eyes</td>
-<td>You grow 1d6 functioning eyes. Roll location for each. 1. Back, 2.
-Chest, 3. Forehead, 4. Mouth, 5. Back of Head, 6. Palm of hand.</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>Toothy Maw</td>
-<td>Your mandible detaches, splits, and grows down into your chest
-cavity. A horrific trefoil mouth full of razor sharp teeth that now
-occupies the upper third of your body mass. You gain a bite attack that
-does 1d8+STR piercing damage.</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>Cuttlefish Face</td>
-<td>You grow a great mass of tentacles where your nose and mouth used to
-be. You mouth is a little crushing beak.</td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>Misshapen Brute</td>
-<td>Bones break and muscles tear as your body expands and reshapes
-itself into a lopsided juggernaut. Your STR &amp; CON ability bonuses
-increase by +2. Your INT &amp; WIS ability bonuses decrease by -2. Your
-CHA ability bonus is decreased by -4.</td>
-</tr>
-<tr class="odd">
-<td>7</td>
-<td>Barbed Spines</td>
-<td>A spiny bramble grows from the inner joints of your elbows to wrap
-around your wrists and hands. You can wield them as daggers or shoot
-your spines 50’. They inflict 1d6 damage. Creatures struck by your
-spines Save vs Constitution or become poisoned. Successful save
-ends.</td>
-</tr>
-<tr class="even">
-<td>8</td>
-<td>Prehensile Tongue</td>
-<td>Your tongue swells and elongates until it is as long as your arms.
-You can hold objects with your tongue. Speech is nearly impossible.
-Eating is difficult. Your saliva causes blindness. On a successful melee
-attack you inflict 1d6 damage and the creature hit must Save vs
-Constitution or be blinded for 1d6 Turns.</td>
-</tr>
-<tr class="odd">
-<td>9</td>
-<td>Tentacle Guts</td>
-<td>A seething mass of jelly-like pseudopods erupts from your abdomen.
-Reach 10’. Advantage when attempting to grapple a creature.</td>
-</tr>
-<tr class="even">
-<td>10</td>
-<td>Cronenberg</td>
-<td>A random body part (1d6: 1-2 legs, 3-5 arms, 6 head) is replaced
-with the equivalent from a (1d10: 1-3 jelly, 4-6 crustacean, 7-9 insect,
-10 you become a goblin, page ?)</td>
-</tr>
-<tr class="odd">
-<td>11</td>
-<td>Extra Mouths</td>
-<td>You grow 1d6 extra functioning mouths. They mutter and grumble
-constantly. Roll location for each. 1. Back, 2. Chest, 3. Forehead, 4.
-Mouth, 5. Back of Head, 6. Palm of hand.</td>
-</tr>
-<tr class="even">
-<td>12</td>
-<td>Eye Stalks</td>
-<td>A pair of thick spiny eyestalks grow out of your skull, capped with
-enormous insect eyes. These replace your normal eyes but do not change
-you vision significantly.</td>
-</tr>
-</tbody>
-</table>
+<div id="spellbooks" class="section level3">
+<h3>Spellbooks</h3>
+<p>A spellbook, or grimoire, contains information on up to 10 spells and
+occupies 1 Item Slot.</p>
+<p>In order to use a spellbook, the PC needs to have gained the
+<strong>Spellcasting</strong> ability through a class template (or a
+special ability granting their use).</p>
+<p>A solid volume, with thick vellum pages and a sturdy cover. Each page
+is littered with runes, arcane symbols, diagrams, calculations, and
+hand-written notes in the margins, describing the theory and practice of
+casting a particular spell. Spellbooks start in a waterproof, acid- and
+fire-resistant bag. Outside the bag, they are not waterproof. They are
+flammable. And they are also valuable–even an empty book is worth 1000
+gp, +500-1,000 gp per spell it may contain.</p>
+<p>A spellcaster can try to make a spell in a spellbook one of their
+<strong>Signature Spells</strong>, if they have not yet exhausted their
+maximum number of signature spells and they pass a <strong>Save vs
+INT</strong>. Attempting to commit a spell to memory takes one week of
+study.</p>
+<p>Upon gaining the <strong>Book Casting</strong> feature, a spellcaster
+can try to cast a spell directly from the spellbook. This is slow and
+dangerous because the caster has not yet mastered the spell. The
+spellcaster has to declare the intent to cast a spell from their
+spellbook <strong>before initiative is rolled for the round</strong>.
+They automatically lose initiative and go after the enemies in a fight.
+The spellcaster has to decide how many <strong>MD</strong> to invest,
+hold the spellbook in their hand, and they cannot move during their
+turn. If they take any damage during the round <strong>Save vs
+Constitution</strong>. If they fail the save, they fumble the spell and
+there is no effect, but the spellcaster still rolls the
+<strong>MD</strong> for the purposes of determining
+<strong>Mishaps</strong> or <strong>Doom</strong> and the loss of
+<strong>MD</strong>.</p>
+<p>Some rare spellbooks may also have additional <strong>MD</strong>
+stored inside of them.</p>
+</div>
+<div id="scrolls" class="section level3">
+<h3>Scrolls</h3>
+<p>A scroll is effectively a page from a spellbook with some extra magic
+built in. It contains the description of a single spell and the power to
+cast it once. Three scrolls fit in one Item Slot.</p>
+<p>In order to use a scroll, the PC needs to have the
+<strong>Spellcasting</strong> ability, gained through a class template
+(or a special ability granting their use).</p>
+<p>A spellcaster can try to make a spell on a scroll one of their
+<strong>Signature Spells</strong>, if they have not yet exhausted their
+number of <strong>Signature Spells</strong> and they pass a <strong>Save
+vs INT</strong>. Attempting to commit a spell to memory requires one
+week of study.</p>
+<p>A spellcaster can try to cast a spell from the scroll. This is slow
+and dangerous because the caster has not yet mastered the spell. The
+spellcaster has to declare the intent to cast a spell from as scroll
+<strong>before initiative is rolled for the round</strong>. They
+automatically lose initiative and go after the enemies in a fight. The
+spellcaster has to decide how many <strong>MD</strong> to invest, hold
+the scroll in their hand, and they cannot move during their turn. If
+they take any damage during the round <strong>Save vs CON</strong>. If
+they fail the save, they fumble the spell and there is no effect, but
+the spellcaster still rolls the <strong>MD</strong> for the purposes of
+determining <strong>Mishaps</strong> or <strong>Doom</strong> and the
+loss of <strong>MD</strong>. If they succeed, roll <strong>MD</strong>
+as normal to determine the spell’s effect. Doing so unleashes the stored
+magic of the scroll. The scroll burns and you add <strong>+1 MD</strong>
+to your roll for the purposes of determining the effect. Roll different
+colored dice to keep them sorted. This <strong>MD</strong> is
+automatically consumed and does not return to your pool.</p>
+<p>The <strong>Flame Proof</strong> class ability allows the Wizard to
+cast a spell from a scroll without burning it. Doing so does not use up
+the stored +1 MD in the scroll (if they want the extra power, the scroll
+burns). A wizard can invoke this ability once per day.</p>
+</div>
+<div id="wands-staves" class="section level3">
+<h3>Wands &amp; Staves</h3>
+<p>In order to use a Wand or Stave, the PC needs to have at least one
+<strong>M-U</strong> class template (or a special ability granting their
+use).</p>
+<p>Wands and Staves contain extra <strong>MD</strong> that are tied to
+specific spells. Wands provide the ability to cast a single, specific
+spell (e.g., a Wand of Magic Missile) and can store up to <strong>4
+MD</strong>. Casting a spell from a wand requires <strong>no
+save</strong>. The PC has to use at least <strong>1 MD</strong> from the
+wand itself, but can add additional <strong>MD</strong> from their own
+pool. Roll different colored dice to keep them sorted. Be wary of
+rolling too many <strong>MD</strong> at once! Quadruples, quintuples,
+sextuples, etc. count as stacking Mishaps in addition to any Doom a PC
+might roll.</p>
+<p><strong>MD</strong> from the wand are automatically lost, regardless
+of what you roll.</p>
+<p>You may also invest <strong>1 MD</strong> into the wand per day, and
+you take 1d6 damage from the strain. The <strong>MD</strong> invested in
+the wand is held there until it is used. Each day, you can add
+<strong>+1 MD</strong> to the wand, as above. <strong>MD</strong> moved
+to a wand reduces your total for the day, but you regain your full
+number of <strong>MD</strong> with a <strong>Good Night’s
+Sleep</strong>.</p>
+<p>Big wands (staves) can hold up to <strong>6 MD</strong> and cast up
+to <strong>3 spells</strong>. The art of making wands died with the
+Ancients and they are essentially priceless. Expect to be ambushed by
+collectors, thieves, and other wizards if you are unsubtle about
+possessing one of these artifacts.</p>
+</div>
+<div id="magic-robes" class="section level3">
+<h3>Magic Robes</h3>
+<p>The Big Hats and fancy robes are not just fashion statements. Magic
+Robes provide <strong>+1 MD</strong> to a spellcaster’s casting pool.
+Some ancient robes may even offer more power!</p>
+<p>Anyone with at least one <strong>M-U</strong> class template (or a
+special ability granting their use) can wear magic robes in lieu of
+armor. That means magic robes can be used to fuel spells but also other
+magical abilities.</p>
+<p>Obtaining the materials necessary for creating magic garments almost
+always involves a quest to a mist shrouded forest or a dismal swamp
+where you will undoubtedly do battle with a giant sentient spider or
+make promises you cannot keep to an ancient hag.</p>
+</div>
+<div id="identifying-magic" class="section level3">
+<h3>Identifying Magic</h3>
+<p>Spellcasters can sense magic in the air (15ft radius). By tasting,
+smelling, rubbing, or closely inspecting an item, you can tell if it is
+magical. Test <strong>INT</strong> to see if you successfully suss out a
+magical aura. You may need to test the item in game to determine what
+type of magic it holds. Overnight study and an additional <strong>INT
+save</strong> may reveal more information after such.</p>
+</div>
+</div>
+<div id="mishaps" class="section level2">
+<h2>Mishaps</h2>
+<p>If you roll doubles while casting a spell, roll on the Mishap table
+for your M-U class. Unless otherwise specified, the spell still works.
+Magic is dangerous; this was just a hiccup or misfire.</p>
+</div>
+<div id="dooms" class="section level2">
+<h2>Dooms</h2>
+<p>If you roll triples while casting a spell, one of your wizard Dooms
+takes effect. Each class has 3 dooms. The third doom is invariably fatal
+or worse. All wizards walk a dangerous path. They burn their souls like
+candles, and in doing so, court damnation.</p>
+<p>It is possible to seek solutions to a wizard’s doom. These are always
+unique quests.</p>
+<p><strong>MODIFYING MAGICAL SAVES</strong></p>
+<p>Any <strong>Save</strong> for resisting a spell’s effect is modified
+by the Level-HD difference between the caster and the target if this
+difference is larger than 1. E.g., a Level-5 Wizard casts a spell on a
+1-HD goblin. The goblin’s <strong>save</strong> receives an additional
+penalty of -4. The the wizard had cast the spell on the 4-HD goblin
+captain, no additional penalty is incurred.</p>
 </div>
 </div>
 <div id="magic-items" class="section level1">
 <h1><strong>MAGIC ITEMS</strong></h1>
-<p><strong>MAGIC ITEMS</strong> Check out <a href="https://cairnrpg.com/resources/more-relics/" class="uri">https://cairnrpg.com/resources/more-relics/</a> or any other
-classic OSR game.</p>
-</div>
-<div id="bestiary" class="section level1">
-<h1><strong>BESTIARY</strong></h1>
-<p>Just use standard OSR Bestiaries. They should work without much
-change.</p>
-<p>A minimal stat block for an enemy looks like this:</p>
-<table>
-<colgroup>
-<col width="10%" />
-<col width="8%" />
-<col width="8%" />
-<col width="26%" />
-<col width="13%" />
-<col width="7%" />
-<col width="11%" />
-<col width="13%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>NAME</strong></th>
-<th><strong>HD</strong></th>
-<th><strong>HP</strong></th>
-<th><strong>TO HIT / ATTACK DC</strong></th>
-<th><strong>DAMAGE</strong></th>
-<th><strong>AC</strong></th>
-<th><strong>MORALE</strong></th>
-<th><strong>SPECIAL</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Goblin</td>
-<td>1D4</td>
-<td>2</td>
-<td>+0 / 12</td>
-<td>1d4 or weapon</td>
-<td>13</td>
-<td>5</td>
-<td>Infravision, AL C, Sneaky (Adv on stealth)</td>
-</tr>
-<tr class="even">
-<td>Orc</td>
-<td>1d8</td>
-<td>4</td>
-<td>+1 / 13</td>
-<td>1d6 or weapon</td>
-<td>13</td>
-<td>7</td>
-<td>Infravision, Relentless (when reduced to 0, <strong>Save vs
-Con</strong> to stay at 1 HP)</td>
-</tr>
-</tbody>
-</table>
-<p>Powerful enemies may cause minimum damage, even on a miss (like Shock
-damage in WWN). This minimum damage should be equivalent to the lowest
-damage roll for the attack.</p>
-<p>Generally, regular enemies only get movement and 1 action during a
-combat turn. Only particularly skilled enemies are allowed to
-<strong>push themselves</strong> at the cost of fatigue.</p>
-<p>NPC and monstrous spellcasters should have a pool of MD and a list of
-available spells or custom abilities.</p>
+<p><strong>MAGIC ITEMS</strong> Check out any other classic OSR game but
+make sure to include bonus MD for the magic users.</p>
 </div>
 <div id="the-grand-grimoires" class="section level1">
 <h1><strong>THE GRAND GRIMOIRES</strong></h1>
@@ -9705,6 +9157,588 @@ they are not neutralized, the poisons become doubly effective.</p>
 <p>There are only 99 entities in all creation. If a 100 is rolled, roll
 again twice and allow the summoner to select an Entity based on the name
 only.</p>
+</div>
+</div>
+<div id="bestiary" class="section level1">
+<h1><strong>BESTIARY</strong></h1>
+<p>Just use standard OSR Bestiaries. They should work without much
+change.</p>
+<p>A minimal stat block for an enemy looks like this:</p>
+<table>
+<colgroup>
+<col width="10%" />
+<col width="8%" />
+<col width="8%" />
+<col width="26%" />
+<col width="13%" />
+<col width="7%" />
+<col width="11%" />
+<col width="13%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>NAME</strong></th>
+<th><strong>HD</strong></th>
+<th><strong>HP</strong></th>
+<th><strong>TO HIT / ATTACK DC</strong></th>
+<th><strong>DAMAGE</strong></th>
+<th><strong>AC</strong></th>
+<th><strong>MORALE</strong></th>
+<th><strong>SPECIAL</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Goblin</td>
+<td>1D4</td>
+<td>2</td>
+<td>+0 / 12</td>
+<td>1d4 or weapon</td>
+<td>13</td>
+<td>5</td>
+<td>Infravision, AL C, Sneaky (Adv on stealth)</td>
+</tr>
+<tr class="even">
+<td>Orc</td>
+<td>1d8</td>
+<td>4</td>
+<td>+1 / 13</td>
+<td>1d6 or weapon</td>
+<td>13</td>
+<td>7</td>
+<td>Infravision, Relentless (when reduced to 0, <strong>Save vs
+Con</strong> to stay at 1 HP)</td>
+</tr>
+</tbody>
+</table>
+<p>Powerful enemies may cause minimum damage, even on a miss (like Shock
+damage in WWN). This minimum damage should be equivalent to the lowest
+damage roll for the attack.</p>
+<p>Generally, regular enemies only get movement and 1 action during a
+combat turn. Only particularly skilled enemies are allowed to
+<strong>push themselves</strong> at the cost of fatigue.</p>
+<p>NPC and monstrous spellcasters should have a pool of MD and a list of
+available spells or custom abilities.</p>
+</div>
+<div id="random-tables" class="section level1">
+<h1><strong>RANDOM TABLES</strong></h1>
+<div id="random-items" class="section level2">
+<h2>Random Items</h2>
+<table>
+<thead>
+<tr class="header">
+<th><strong>1D20</strong></th>
+<th>DUNGEONEERING</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Pliers, loop of wire</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Jar of glue</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Drill</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Smoke bombs (3)</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Sturdy shears</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Spyglass</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Chisel</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Rope, 50ft</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Crowbar</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Caltrops</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>Copper wire, 15ft.</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Bladder of oil</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>Grapple hook</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Iron spikes, 5</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>Bucket of pitch</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>10ft pole</td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td>Hammer</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td>Lantern, 1 flask oil</td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td>Lock-picks</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td>Vial of acid</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th><strong>1D20</strong></th>
+<th>FOOD &amp; DRINK</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Mortar &amp; pestle</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Tobacco &amp; pipe (5 uses)</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Set of ladles, spoons, and sieves</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Bag of salt</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Fancy chef’s pan</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Fishing rod</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Ewer of wine</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Strange fungus</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Bag of potent spices (5 uses)</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Large wheel of expensive cheese</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>Book of monster recipes</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Sack of flour</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>9 rations</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Bear trap</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>Questionable mushrooms</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>Bottle of poison</td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td>Magical healing herbs, 3 doses</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td>Pot of grease</td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td>3 flasks</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td>Set of fancy chef’s knives</td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="32%" />
+<col width="67%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>1D20</strong></th>
+<th>MAGIC &amp; CURSED ITEMS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Half a map</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Jar of eyeballs</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Knucklebones of a saint . . .probably</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Jar of leeches</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Antique wand</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Small box containing the dying breathe of a dead man</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Writing case (paper, quill &amp; ink)</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Ironbound tome (probably cursed)</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>A small bird with opinions</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Ring (holds 1 MD)</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>1d3 Enigma (spell/potion)</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>A fairy’s heart in a small vial</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>A Thief’s book of secrets written in invisible ink</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Bone reliquary that only opens when asked politely</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>Collection of iridescent cicada wings</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>Cold iron key to a tower that no one has ever heard of</td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td>Magic robes</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td>Black chalk that summons ghosts - will answer questions
+truthfully</td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td>Spice bag of holding</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td>1d3 magic scrolls</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th><strong>1D10</strong></th>
+<th>UNLABELED WANDS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Sleep</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Acid Arrow</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Magic Missile</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Burning Hands</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Feather Fall</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Knock</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Grease</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Wizard Lock</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Fireball</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Transmute <X> to <Y></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="29%" />
+<col width="70%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>1D12</strong></th>
+<th>RANDOM MAGIC SHOP ITEMS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>A jar containing a wizard’s last thoughts.</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>A wolf skull and a wooden tongue. If the tongue is put inside the
+skull, It will start cursing in an unknown language. Anyone who hears it
+curse must make a CON save or gain Lycanthropy.</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>An empty lamp capable of holding a djinn.</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>A crystal ball which holds within it visions of the life you could
+have had if only you’d made better choices.</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>A book detailing the process of creating an owlbear. It’s quite
+nasty.</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>A book of alleged demon sightings, like a UFOlogist’s conspiracy
+book.</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>A yellowed candle clutched by a mummified hand. Light the candle to
+reveal invisible beings and ghosts.</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>The animated skeleton of a canary, locked in a cage. It will shriek
+horribly if it catches even a faint whiff of poison.</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Black Fen and The Boys. (D10 mice for hire.) Black Fen runs a
+collection of protection rackets and other schemes and takes tribute
+from most of the street gangs operating in the area - you can hire her,
+but she won’t be coming with you herself. Instead, she’ll send one of
+her “boys”, invariably a tough, scarred mouse with good instincts for
+when to get the hell out of dodge and an eye for trouble - and loot. The
+real benefit to having her on your payroll though is that the mouse
+gangs won’t ever harass a party that has one of her boys tagging
+along.</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>A Charcoal Skull Mask. Peer through it to see the world on
+fire.</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>The mummified corpse of a seer packed into a large clay amphora.
+Once per day, feed it three drops of human blood and receive a yes or no
+answer to a single question.</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Razor-sharp bone shards from a famous monks ribcage. Said to cure
+possession if swallowed, but the results are often bad for your internal
+organs.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="random-mutations" class="section level2">
+<h2>Random Mutations</h2>
+<table>
+<colgroup>
+<col width="29%" />
+<col width="50%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>1D12</strong></th>
+<th>RANDOM MUTATION</th>
+<th>EFFECT</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Blindsight</td>
+<td>Your eyes turn milky-white as mycelial hyphae sprout from your eye
+sockets and form a dense crust over the top of your head. You no longer
+“see”, per se, but you can sense vibrations out to 60’, regardless of
+environmental conditions (light, dark, etc.)</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Extra Limbs</td>
+<td>You sprout d4 extra limbs. 1-4: arm, 5-6: leg. For each extra pair
+of arms you gain an additional attack per round and gain the Spiderclimb
+ability (as the spell). For each additional leg, increase your movement
+speed by 5’ per round.</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>So Many Eyes</td>
+<td>You grow 1d6 functioning eyes. Roll location for each. 1. Back, 2.
+Chest, 3. Forehead, 4. Mouth, 5. Back of Head, 6. Palm of hand.</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Toothy Maw</td>
+<td>Your mandible detaches, splits, and grows down into your chest
+cavity. A horrific trefoil mouth full of razor sharp teeth that now
+occupies the upper third of your body mass. You gain a bite attack that
+does 1d8+STR piercing damage.</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Cuttlefish Face</td>
+<td>You grow a great mass of tentacles where your nose and mouth used to
+be. You mouth is a little crushing beak.</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Misshapen Brute</td>
+<td>Bones break and muscles tear as your body expands and reshapes
+itself into a lopsided juggernaut. Your STR &amp; CON ability bonuses
+increase by +2. Your INT &amp; WIS ability bonuses decrease by -2. Your
+CHA ability bonus is decreased by -4.</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Barbed Spines</td>
+<td>A spiny bramble grows from the inner joints of your elbows to wrap
+around your wrists and hands. You can wield them as daggers or shoot
+your spines 50’. They inflict 1d6 damage. Creatures struck by your
+spines Save vs Constitution or become poisoned. Successful save
+ends.</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Prehensile Tongue</td>
+<td>Your tongue swells and elongates until it is as long as your arms.
+You can hold objects with your tongue. Speech is nearly impossible.
+Eating is difficult. Your saliva causes blindness. On a successful melee
+attack you inflict 1d6 damage and the creature hit must Save vs
+Constitution or be blinded for 1d6 Turns.</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Tentacle Guts</td>
+<td>A seething mass of jelly-like pseudopods erupts from your abdomen.
+Reach 10’. Advantage when attempting to grapple a creature.</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Cronenberg</td>
+<td>A random body part (1d6: 1-2 legs, 3-5 arms, 6 head) is replaced
+with the equivalent from a (1d10: 1-3 jelly, 4-6 crustacean, 7-9 insect,
+10 you become a goblin, page ?)</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>Extra Mouths</td>
+<td>You grow 1d6 extra functioning mouths. They mutter and grumble
+constantly. Roll location for each. 1. Back, 2. Chest, 3. Forehead, 4.
+Mouth, 5. Back of Head, 6. Palm of hand.</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Eye Stalks</td>
+<td>A pair of thick spiny eyestalks grow out of your skull, capped with
+enormous insect eyes. These replace your normal eyes but do not change
+you vision significantly.</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </div>
